@@ -1,0 +1,19 @@
+version: '2'
+services:
+    little_app:
+        image: little_app
+        container_name: little_app
+        build: .
+
+        logging:
+            options:
+                max-size: 50m
+
+        environment:
+            - foo=123
+
+
+        ports:
+          - "5000:5000"
+
+

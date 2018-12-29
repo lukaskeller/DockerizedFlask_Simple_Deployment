@@ -1,0 +1,8 @@
+venv
+
+.dockerignore
+
+Dockerfile
+docker-compose.yml
+
+start_flask
