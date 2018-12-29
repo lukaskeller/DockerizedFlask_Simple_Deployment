@@ -11,10 +11,7 @@ RUN pip install -r requirements.txt
 COPY . /app
 WORKDIR /app
 
-# EXPOSE 8000
-
 CMD ["gunicorn", "app.wsgi:app", "--bind", "0.0.0.0:5000", "--workers", "3" ]
-# CMD [ "python", "./server.py" ]
 
 
 

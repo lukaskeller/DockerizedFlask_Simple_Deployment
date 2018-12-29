@@ -1,8 +1,10 @@
 venv
 
 .dockerignore
+.gitignore
 
 Dockerfile
 docker-compose.yml
 
-start_flask
+start_flask.py
+start_with_docker.py
