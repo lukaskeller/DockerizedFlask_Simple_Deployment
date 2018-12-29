@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body style="padding: 20px;">
+<div class="container">
+
+    <h1>Welcome Simple Math!</h1>
+    <p>Please enter two numbers to be summed up:</p>
+
+
+
+
+    <hr>
+
+        <form method="POST" action="math/submit">
+        <div class="row">
+
+            <div class="col">
+
+                <div class="form-group">
+                  <label for="val1">First Number</label>
+                  <input type="number" class="form-control" id="val1" name="val1" placeholder="Enter a number" required step=any>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="form-group">
+                  <label for="val2">Second Number</label>
+                  <input type="number" class="form-control" id="val2" name="val2" placeholder="Enter a number" required step=any>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row justify-content-center">
+          <button type="submit" class="btn btn-primary" onclick="checkFields(event)">Submit</button>
+        </div>
+        </form>
+        <hr>
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+
